@@ -6,6 +6,7 @@ LIBVMAF_INSTALL=${BASE_PATH}/install
 pushd ${LIBVMAF_PATH}
 
 git reset --hard v2.2.1
+rm -rf build-*
 
 # prepare
 python3 -m pip install virtualenv
